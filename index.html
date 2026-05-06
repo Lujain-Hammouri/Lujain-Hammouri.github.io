@@ -1,0 +1,338 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>A.D. SCIENTIST | Data Science &amp; AI Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface": "#101415",
+                        "on-surface": "#e0e3e5",
+                        "surface-bright": "#363a3b",
+                        "tertiary-container": "#06182b",
+                        "secondary-fixed-dim": "#c4174a",
+                        "on-surface-variant": "#c6c6cd",
+                        "primary": "#bec6e0",
+                        "on-error-container": "#ffdad6",
+                        "inverse-on-surface": "#2d3133",
+                        "on-error": "#690005",
+                        "surface-variant": "#323537",
+                        "on-primary-container": "#798098",
+                        "surface-container-high": "#272a2c",
+                        "on-secondary-fixed": "#1a0010",
+                        "surface-container-lowest": "#0b0f10",
+                        "on-secondary-container": "#6b0025",
+                        "surface-container": "#1d2022",
+                        "tertiary-fixed": "#d3e4fe",
+                        "on-background": "#e0e3e5",
+                        "outline-variant": "#45464d",
+                        "tertiary-fixed-dim": "#b7c8e1",
+                        "on-tertiary-container": "#728299",
+                        "surface-container-highest": "#323537",
+                        "primary-fixed": "#dae2fd",
+                        "primary-fixed-dim": "#bec6e0",
+                        "inverse-surface": "#e0e3e5",
+                        "on-primary-fixed": "#131b2e",
+                        "on-tertiary": "#213145",
+                        "on-primary-fixed-variant": "#3f465c",
+                        "primary-container": "#0f172a",
+                        "surface-tint": "#bec6e0",
+                        "secondary-fixed": "#f4a2b4",
+                        "secondary-container": "#c4174a",
+                        "surface-dim": "#101415",
+                        "on-secondary-fixed-variant": "#7a0030",
+                        "error": "#ffb4ab",
+                        "tertiary": "#b7c8e1",
+                        "on-secondary": "#3d0018",
+                        "secondary": "#e8325a",
+                        "on-tertiary-fixed": "#0b1c30",
+                        "outline": "#909097",
+                        "surface-container-low": "#191c1e",
+                        "error-container": "#93000a",
+                        "background": "#101415",
+                        "on-tertiary-fixed-variant": "#38485d",
+                        "on-primary": "#283044",
+                        "inverse-primary": "#565e74"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "unit": "4px",
+                        "container-max": "1120px",
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "section-padding": "120px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Newsreader"],
+                        "label-sm": ["Inter"],
+                        "headline-display": ["Newsreader"],
+                        "body-lg": ["Inter"],
+                        "body-md": ["Inter"],
+                        "headline-md": ["Newsreader"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                        "label-sm": ["12px", {"lineHeight": "1.5", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-display": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(25, 28, 30, 0.6);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .text-glow-hover:hover {
+            text-shadow: 0 0 8px rgba(232, 50, 90, 0.4);
+        }
+        .technical-grid {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-secondary/30 selection:text-secondary">
+<main class="technical-grid pt-16">
+<!-- Hero Section -->
+<section class="max-w-container-max mx-auto px-gutter mb-section-padding">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7">
+<span class="font-label-sm text-secondary uppercase mb-4 block">Data Scientist &amp; AI Engineer · Amman, Jordan</span>
+<h1 class="font-headline-display text-headline-display text-on-surface mb-2 leading-none">
+                        Lujain <span class="text-primary italic">Al Hammouri</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-6 max-w-xl mt-6">
+                        I build intelligent systems — from CRM data architectures and ETL pipelines to LLM applications and explainable AI models. Currently leading data engineering and analytics operations at Al Hussein Technical University, and ranked 1st in my Data Science &amp; AI programme.
+                    </p>
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant text-xs font-label-sm rounded-full">AI &amp; Machine Learning</span>
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant text-xs font-label-sm rounded-full">ETL &amp; Data Engineering</span>
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant text-xs font-label-sm rounded-full">LLMs &amp; RAG Systems</span>
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant text-xs font-label-sm rounded-full">CRM Administration</span>
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant text-xs font-label-sm rounded-full">Bioinformatics</span>
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant text-xs font-label-sm rounded-full">Power BI &amp; Tableau</span>
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant text-xs font-label-sm rounded-full">Python · R · SQL</span>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="glass-panel p-4 text-center rounded-lg">
+<span class="block text-secondary font-bold" style="font-size:2rem;line-height:1.1">3.5</span>
+<span class="font-label-sm text-on-surface-variant" style="font-size:10px">GPA — ranked 1st in programme 24&amp;25 cohort</span>
+</div>
+<div class="glass-panel p-4 text-center rounded-lg">
+<span class="block text-secondary font-bold" style="font-size:2rem;line-height:1.1">4+</span>
+<span class="font-label-sm text-on-surface-variant" style="font-size:10px">Industry internships &amp; roles</span>
+</div>
+<div class="glass-panel p-4 text-center rounded-lg">
+<span class="block text-secondary font-bold" style="font-size:2rem;line-height:1.1">2×</span>
+<span class="font-label-sm text-on-surface-variant" style="font-size:10px">Research projects</span>
+</div>
+<div class="glass-panel p-4 text-center rounded-lg">
+<span class="block" style="font-size:1.75rem;line-height:1.2">🏆</span>
+<span class="font-label-sm text-on-surface-variant" style="font-size:10px">GEW 2024 competition winner</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative aspect-square">
+<div class="absolute inset-0 bg-secondary/10 blur-[100px] rounded-full"></div>
+<img alt="Lujain Al Hammouri — Data Scientist &amp; AI Engineer" class="w-full h-full object-cover glass-panel rounded-lg grayscale hover:grayscale-0 transition-all duration-700" src="img.JPG">
+</div>
+</div>
+</section>
+<!-- Thesis & Research Section -->
+<section class="bg-surface-container-low py-section-padding">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+<!-- Thesis -->
+<div class="space-y-8">
+<div class="flex items-center gap-4">
+<span class="font-label-sm text-secondary">01. THESIS</span>
+<div class="h-px bg-outline-variant flex-grow"></div>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface leading-tight">
+                            A dual-agent explainable AI framework for personalized oncology.
+                        </h2>
+<p class="font-body-md text-on-surface-variant">
+                            Developing a sophisticated XAI model for gene-activity-driven drug response prediction. The framework utilizes dual-agent architectures to provide interpretable decision support for oncology treatment selection.
+                        </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-4 bg-surface rounded-DEFAULT border border-white/5">
+<span class="block font-label-sm text-secondary mb-1">Architecture</span>
+<span class="font-body-md text-on-surface">Dual-Agent XAI</span>
+</div>
+<div class="p-4 bg-surface rounded-DEFAULT border border-white/5">
+<span class="block font-label-sm text-secondary mb-1">Field</span>
+<span class="font-body-md text-on-surface">Bioinformatics</span>
+</div>
+</div>
+</div>
+<!-- Research Spotlight -->
+<div class="space-y-8">
+<div class="flex items-center gap-4">
+<span class="font-label-sm text-secondary">02. RESEARCH</span>
+<div class="h-px bg-outline-variant flex-grow"></div>
+</div>
+<div class="glass-panel p-8 border-l-4 border-l-secondary relative overflow-hidden">
+<div class="absolute top-0 right-0 p-4">
+<span class="material-symbols-outlined text-white/5 text-8xl" style="font-variation-settings: &quot;FILL&quot; 1;">analytics</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4 relative z-10">
+                                Enhanced Big Data: Shifting Focus from Quantity to Quality
+                            </h3>
+<p class="font-body-md text-on-surface-variant mb-6 relative z-10">
+                                Investitaging methods to improve predictive modeling accuracy by optimizing data curation pipelines over massive datasets.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Grid -->
+<section class="max-w-container-max mx-auto px-gutter py-section-padding">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+<div class="max-w-xl">
+<span class="font-label-sm text-primary uppercase mb-4 block">Selected Works</span>
+<h2 class="font-headline-display text-headline-display text-on-surface">Applied Intelligence</h2>
+</div>
+<a class="font-label-sm text-on-surface-variant hover:text-secondary transition-colors pb-2 border-b border-outline-variant" href="#">VIEW ALL PROJECTS</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Project Card 1 -->
+<div class="group glass-panel rounded-lg p-8 flex flex-col justify-between hover:border-secondary/30 transition-all duration-300">
+<div>
+<div class="flex justify-between items-start mb-4">
+<span class="font-label-sm text-secondary uppercase">Undergraduate Research</span>
+<span class="font-label-sm text-on-surface-variant">2022 — 2024</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-secondary transition-colors mb-3">Cancer Detection &amp; Classification</h3>
+<ul class="font-body-md text-on-surface-variant space-y-2 text-sm list-none">
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Predicted breast cancer stages and patient survival using clinical and patient datasets</span></li>
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Classified lung cancer cases from medical images using deep learning and multimodal language models</span></li>
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Predicted and classified brain cancer types from medical images using deep learning models</span></li>
+</ul>
+</div>
+<div class="mt-6 flex flex-wrap gap-2">
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">Deep Learning</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">Medical Imaging</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">PyTorch</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-surface-variant px-2 py-1 bg-surface-variant/40 rounded uppercase">Link TBA</span>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="group glass-panel rounded-lg p-8 flex flex-col justify-between hover:border-secondary/30 transition-all duration-300">
+<div>
+<div class="flex justify-between items-start mb-4">
+<span class="font-label-sm text-secondary uppercase">Industry Internship</span>
+<span class="font-label-sm text-on-surface-variant">Apr — Oct 2024</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-secondary transition-colors mb-3">Pharmaceutical AI &amp; Data Engineering</h3>
+<ul class="font-body-md text-on-surface-variant space-y-2 text-sm list-none">
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Developed AI models for chemical compound reaction prediction</span></li>
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Big Data cleaning, analysis, and engineering to enhance available datasets</span></li>
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Built LLMs to analyze pharmaceutical documentation with PubChem database integration</span></li>
+</ul>
+</div>
+<div class="mt-6 flex flex-wrap gap-2">
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">LLMs</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">Big Data</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">PubChem API</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-surface-variant px-2 py-1 bg-surface-variant/40 rounded uppercase">Link TBA</span>
+</div>
+</div>
+<!-- Project Card 3 -->
+<div class="group glass-panel rounded-lg p-8 flex flex-col justify-between hover:border-secondary/30 transition-all duration-300">
+<div>
+<div class="flex justify-between items-start mb-4">
+<span class="font-label-sm text-secondary uppercase">Bioinformatics Research</span>
+<span class="font-label-sm text-on-surface-variant">2024 — 2025</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-secondary transition-colors mb-3">Multi-Omics &amp; Graph Neural Networks</h3>
+<ul class="font-body-md text-on-surface-variant space-y-2 text-sm list-none">
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Multi-Omics Factor Analysis for pancreatic cancer biology — treatment selection, patient stratification, and biomarker discovery</span></li>
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Designed Graph Neural Networks (GNNs) to model gene–gene correlations in cancer datasets</span></li>
+</ul>
+</div>
+<div class="mt-6 flex flex-wrap gap-2">
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">GNN</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">Multi-Omics</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">R · Python</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-surface-variant px-2 py-1 bg-surface-variant/40 rounded uppercase">Link TBA</span>
+</div>
+</div>
+<!-- Project Card 4 -->
+<div class="group glass-panel rounded-lg p-8 flex flex-col justify-between hover:border-secondary/30 transition-all duration-300">
+<div>
+<div class="flex justify-between items-start mb-4">
+<span class="font-label-sm text-secondary uppercase">Graduation Thesis</span>
+<span class="font-label-sm text-on-surface-variant">2025 — 2026</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-secondary transition-colors mb-3">Dual-Agent XAI for Drug Response</h3>
+<ul class="font-body-md text-on-surface-variant space-y-2 text-sm list-none">
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Explainable AI system predicting drug responses in cancer patients using gene expression and clinical data</span></li>
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>MLP on GDSC &amp; CCLE datasets achieving R² = 0.80, Spearman ρ = 0.92 — surpassing prior architectures</span></li>
+<li class="flex gap-2"><span class="text-secondary mt-1">—</span><span>Clinician-ready Streamlit interface with PDF reports identifying top genes influencing drug response</span></li>
+</ul>
+</div>
+<div class="mt-6 flex flex-wrap gap-2">
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">XAI</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">Streamlit</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-primary-container px-2 py-1 bg-primary-container/30 rounded uppercase">GDSC · CCLE</span>
+<span class="font-label-sm text-[10px] tracking-widest text-on-surface-variant px-2 py-1 bg-surface-variant/40 rounded uppercase">Link TBA</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-section-padding bg-surface-container-lowest border-t border-white/5">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+<div>
+<span class="font-headline-md text-headline-md text-primary block mb-6">A.D. SCIENTIST</span>
+<p class="font-body-md text-on-surface-variant max-w-xs opacity-80 hover:opacity-100 transition-all duration-200">
+                    Advancing the frontier of Data Science through academic rigour and computational excellence.
+                </p>
+</div>
+<div>
+<h4 class="font-label-sm text-on-surface mb-6 uppercase tracking-widest">Contact</h4>
+<p class="font-body-md text-on-surface-variant opacity-80 mb-4">Jordan, Amman — Al Hussein Technical University</p>
+<div class="flex gap-4">
+<a class="text-on-surface-variant hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined">mail</span>
+</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined">database</span>
+</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined">terminal</span>
+</a>
+</div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-gutter mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-body-md text-body-md text-on-surface-variant opacity-80">© 2024 Data Science Portfolio. All rights reserved.</p>
+<div class="flex gap-8 text-on-surface-variant font-label-sm opacity-80">
+<a class="hover:text-secondary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-secondary transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+
+
+</body></html>
